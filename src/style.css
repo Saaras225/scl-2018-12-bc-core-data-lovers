@@ -23,8 +23,8 @@ section {
 }
 section figure{
     background-image: url(https://www.masterypoints.com/assets/img/lol/champion_icons/Aatrox.png);
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     /* los siguientes valores son independientes del tamaño del círculo */
     background-repeat: no-repeat;
     background-position: 50%;
