@@ -1,0 +1,46 @@
+html,body {
+    width:100%;
+    background-color: #0a0a0c;
+    margin: 0;
+}
+
+header {
+    height: 255px;   
+    display:block;
+    padding:0px;
+    background-image :url(https://www.online-betting.org/wp-content/uploads/2017/05/lol_header.png);
+    width: 68%;
+    background-repeat: no-repeat;
+    margin:auto;
+    border: 1px solid #ccc;
+}
+section {
+    width: 68%; 
+    height: 390px; 
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+}
+section figure{
+    background-image: url(https://www.masterypoints.com/assets/img/lol/champion_icons/Aatrox.png);
+    height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
+figure {
+    display: table; margin: 0 auto;
+}
