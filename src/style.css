@@ -5,7 +5,7 @@ html,body {
 }
 
 header {
-    height: 255px;   
+    height: 255px;
     display:block;
     padding:0px;
     background-image :url(https://www.online-betting.org/wp-content/uploads/2017/05/lol_header.png);
@@ -15,8 +15,8 @@ header {
     border: 1px solid #ccc;
 }
 section {
-    width: 68%; 
-    height: 390px; 
+    width: 68%;
+    height: 390px;
     border: 1px solid #ccc;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +34,7 @@ section figure{
 footer {
     position: relative;
     margin-top: -50px;
-    height: 40px; 
+    height: 40px;
     padding:5px 0px;
     clear: both;
     background: #286af0;
@@ -43,4 +43,53 @@ footer {
 }
 figure {
     display: table; margin: 0 auto;
+}
+
+
+/*PANTALLA TRES*/
+#three {
+  background-color: #0a0a0c;
+  background-repeat: no-repeat;
+  background-size: 100% 125%;
+}
+
+.header{
+  width:52.5%;
+  height: 250px;
+  padding-left: 47.6%;
+  padding-right: -57.6%;
+  background-image: url("http://subirimagen.me/uploads/20181226081255.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+img {
+  width:93%;
+  height: 100%;
+  border-radius: 50px 50px;
+  padding: 1em;
+  margin-top: -2%;
+}
+
+.cage {
+border: 3px solid white;
+box-sizing: border-box;
+float: left;
+margin:1.5%;
+margin-top: 4%;
+padding:1em;
+width: 30%;
+height: 600px;
+border-radius: 50px 50px;
+}
+
+.selector {
+  width: 15%;
+  height: 30px;
+  margin-left: 9%;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  font-family: courier new;
+  font-size: 120%;
 }

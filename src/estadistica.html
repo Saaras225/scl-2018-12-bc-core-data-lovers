@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Lovers</title>
+    <link rel="stylesheet" href="style.css" />
+      <script type="text/javascript" src="main.js"></script>
+      <script type="text/javascript" src="data/lol/lol.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body id="three">
+      <div class= "header">
+      </div>
+      <form>
+        <select id="selectUno" class="selector" onchange="cargarPersonaje(this)">
+          <option value="personajes">Selecciona</option>
+          </select>
+          </form>
+      <div class= "cage">
+      <img id= "selectUno-img" src="https://i.ytimg.com/vi/w8hKmIyXXmw/maxresdefault.jpg">
+      </div>
+      <div>
+      <div class="cage">
+      </div>
+      <select id="selectDos" class="selector" onchange="cargarPersonaje(this)">
+          <option value="personajes">Selecciona</option>
+          </select>
+      <div class="cage">
+      <image id= "selectDos-img" src="https://i.ytimg.com/vi/w8hKmIyXXmw/maxresdefault.jpg">
+      </div>
+      <script>
+        window.onload=function(){
+          const dataLol= LOL.data;
+            nombresLol(dataLol);
+
+        }
+        </script>
+
+    </body>
+  </html>
