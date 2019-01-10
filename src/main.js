@@ -50,7 +50,7 @@ document.getElementById('search').addEventListener('keypress',(event)=> {
   } else {
     return false;
   }
-});
+}); 
 document.getElementById('btn-tank').addEventListener('click', (event) => {
     event.preventDefault();
     const condition = 'Tank';
