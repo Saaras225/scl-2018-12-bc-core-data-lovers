@@ -1,21 +1,7 @@
-/*require('../src/data.js');
-
-
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
-  });
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});*/
-//
-
 global.window = global;
 global.assert = require('chai').assert;
 require('../src/data.js');
-require('../src/data/lol/lol.js');
+require('../src/data.spec.js');
 //test
 
 describe ('data',()=> {

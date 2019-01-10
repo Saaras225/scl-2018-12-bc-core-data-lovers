@@ -1,31 +1,3 @@
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
-/*window.lol = {
-  championImg: (data) => {
-    let img = [];
-    for (let i=0 ; i < data.length; i++){
-      img.push(data[i].img);
-    }
-    return img;
-  },
-  championName: (data) => {
-    let name = [];
-    for (let i=0 ; i < data.length; i++){
-      name.push(data[i].name);
-    }
-    return name;
-  },
-  championTop : (data) => {
-    let tags = {};
-    let approved = [];
-    for (let i =0 ; i < data.length; i ++){
-      tags = Object.values(data[i].tags);
-      approved = tags.filter(tags => tags  === 'Tank' || tags === 'Fighter');
-      return approved;
-    }
-  }
-};*/
-
 const data = Object.values(LOL.data);
 
 const dataImg = (data) => {
