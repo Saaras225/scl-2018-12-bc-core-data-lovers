@@ -1540,18 +1540,18 @@ const LOL = {
       partype: "MP",
       stats: {
         hp: 558.48,
-        hpperlevel: 86,
+        hpperlevel: 86,//sacar
         mp: 317.2,
         mpperlevel: 37,
-        movespeed: 335,
-        armor: 22.412,
+        movespeed: 335,//util
+        armor: 22.412, //util
         armorperlevel: 3.4,
         spellblock: 32.1,
         spellblockperlevel: 1.25,
-        attackrange: 175,
-        hpregen: 8.175,
+        attackrange: 175,//util
+        hpregen: 8.175,//util
         hpregenperlevel: 0.7,
-        mpregen: 6,
+        mpregen: 6,//util
         mpregenperlevel: 0.8,
         crit: 0,
         critperlevel: 0,
