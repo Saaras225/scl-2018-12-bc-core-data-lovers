@@ -32,9 +32,18 @@ Es un juego competitivo en línea de ritmo frenético, que fusiona la velocidad 
 
 ## Historias de Usuario
 
+Para nuestras historias de usuarios, decidimos formular una serie de preguntas mediante formularios de google, con la intencion de poder llegar al usuario ya que LOL es un juego mayormente de hombres y a muchos les daba pereza entrevistarse con nosotras personalmente.
 
+El otro motivo para hacer un formulario, fue por la facilidad que nos brindaba para hacer las preguntas, las cuales hicimos de manera sencilla pero bien orientadas.
 
+formulario google:
 https://docs.google.com/forms/d/1uCVrdZc5lSD5SPbvB8VHjr8c6EvGRKvCxUxAopf6kQ8/edit#responses
+
+hicimos un total de 5 preguntas referentes a LOL, de las cuales anexamos 2 de las preguntas realizadas con sus respectivas respuestas las cuales fueron respondidas por un total de 6 usuarios.
+
+![pregunta2](http://subirimagen.me/uploads/20190110203001.PNG)
+
+![pregunta3](http://subirimagen.me/uploads/20190110203114.PNG)
 
 ## Maquetado
 el maquetado inicial fue creado mediante un sketchbook en una hoja blanca como una idea inicial de como imaginamos nuestra aplicación.
@@ -44,9 +53,6 @@ el maquetado inicial fue creado mediante un sketchbook en una hoja blanca como u
   ![pantalla2](http://subirimagen.me/uploads/20190110164009.jpg)
   ![pantalla3](http://subirimagen.me/uploads/20190110164139.jpg)
   ![pantalla4](http://subirimagen.me/uploads/20190110164242.jpg)
-
-
-
 
 Luego hicimos un maquetado mas formal mediante figma, dando asi una idea mas elaborada del sketchbook inicial.
 
@@ -83,7 +89,7 @@ Es por ello que mediante las historias de usuarios se logran obtener los datos q
   * Armor
   * Attack Range
 
-## Aplicacion
+## Aplicación
 
 
 ![lol](http://subirimagen.me/uploads/20190108121602.PNG)
@@ -101,3 +107,7 @@ La idea de hacer una interfaz sencilla viene del hecho de que la misma esta diri
 Segun nuestras historias de usuarios, los mismos buscan rapidez a la hora de elegir sus personajes por lo que necesitan datos especificos en el menor tiempo posible y lo que buscamos es que el mismo debo clickear lo menos posible y asi no abandone el site.
 
 ## Prueba de usuarios
+
+luego de la creacion final de la aplicacion, la mostramos a distintos usuarios quienes (jugadores y no jugadores de LOL) quienes se vieron atraidos, especialmente por lo sencillo de la aplicacion y porque consideran que es rapica de usar y con la informacion necesaria para una persona que recien esta iniciando en el LOL.
+
+consideran que el hecho que no tengas que clickear mucho hace efectiva la finalidad de la pagina la cual es, dar una informacion rapida en un tiempo corto.
