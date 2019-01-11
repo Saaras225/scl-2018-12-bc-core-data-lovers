@@ -8,7 +8,6 @@ require('./data.spec.js');
 //const data = window.LOL;
 
 
-
 describe('dataName', () => {
   it('Debería ser una fuction', () => {
     assert.equal(typeof window.dataName, 'function');
