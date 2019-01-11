@@ -7,6 +7,7 @@ const resultDataInfoAttack = window.dataInfoAttack(resultDataInfo);
 const resultDataInfoDefense = window.dataInfoDefense(resultDataInfo);
 const resultDataInfoMagic = window.dataInfoMagic(resultDataInfo);
 const resultDataInfoDifficulty = window.dataInfoDifficulty(resultDataInfo);
+//
 const resultDataBlurb = window.dataBlurb(window.data);
 const resultDataStats = window.dataStats(window.data);
 const resultDataStatHp = window.dataStatHp(resultDataStats);
@@ -16,7 +17,7 @@ const resultDataStatArmor = window.dataStatArmor (resultDataStats);
 const resultDataStatAttackRange = window.dataStatAttackRange (resultDataStats);
 const resultDataStatHpRegen = window.dataStatHpRegen (resultDataStats);
 const resultDataStatMpRegen = window.dataStatMpRegen (resultDataStats);
-const resultDataStatTags = window.dataStatTags (resultDataStats);
+const resultDataStatTags = window.dataStatTags (window.data);
 
 for (let i = 0; i < resultDataImg.length; i++) {
     document.getElementById('root').innerHTML += '<button id="btn-'+ resultDataName[i] + '"><img src="' + resultDataImg[i] + '"><p>' + resultDataName[i] + '</p></button>';
