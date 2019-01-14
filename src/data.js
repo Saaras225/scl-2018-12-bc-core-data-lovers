@@ -1,7 +1,4 @@
-
 const data = Object.values(window.LOL.data);
-
-
 const dataImg = (data) => {
   let img = [];
   for (let i = 0; i < data.length; i++) {
@@ -30,9 +27,9 @@ const dataTitle = (data) => {
   }
   return title;
 }
-const dataBlurb= (data)=>{
-  let blurb=[];
-  for (let i =0;i<data.length;i++) {
+const dataBlurb= (data)=> {
+  let blurb= [];
+  for (let i = 0;i < data.length; i++) {
     blurb.push(data[i].blurb);
   }
   return blurb;
@@ -143,7 +140,7 @@ const dataStatTags = (data) => {
   return tags;
 }
 const filterSearch = (data,condition) => {
-  let search= data.filter(function(el){
+  let search= window.data.filter(function(el){
     return el.name.toUpperCase().indexOf(condition.toUpperCase())>= 0;
   });
   return search;
@@ -151,16 +148,16 @@ const filterSearch = (data,condition) => {
 
 window.data= data;
 window.dataImg = dataImg;
-window.dataName = dataName;
-window.dataSplash = dataSplash;
-window.dataTitle = dataTitle;
+window.dataName = dataName;//
+window.dataSplash = dataSplash;//
+window.dataTitle = dataTitle;//
 window.filterData = filterData
-window.dataInfo = dataInfo;
+window.dataInfo = dataInfo;//
 window.dataInfoAttack = dataInfoAttack;
 window.dataInfoDefense = dataInfoDefense;
 window.dataInfoMagic = dataInfoMagic;
 window.dataInfoDifficulty = dataInfoDifficulty;
-window.dataBlurb = dataBlurb;
+window.dataBlurb = dataBlurb;//
 window.dataStats = dataStats;
 window.dataStatHp = dataStatsHp;
 window.dataStatMp = dataStatMp;
@@ -169,5 +166,5 @@ window.dataStatArmor = dataStatArmor;
 window.dataStatAttackRange = dataStatAttackRange;
 window.dataStatHpRegen = dataStatHpRegen;
 window.dataStatMpRegen = dataStatMpRegen;
-window.dataSearch = filterSearch;
+window.dataSearch = filterSearch;//
 window.dataStatTags = dataStatTags;
