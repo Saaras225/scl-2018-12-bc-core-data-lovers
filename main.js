@@ -438,9 +438,8 @@ document.getElementById('btn-desc').addEventListener('click', (event) => {
     const resultDataStatHpRegen = window.dataStatHpRegen (resultDataStats);
     const resultDataStatMpRegen = window.dataStatMpRegen (resultDataStats);
     const resultDataStatTags = window.dataStatTags (window.data);
-    for (let i= window.data.length-1; i >= 0; i--) {
     document.getElementById('root').innerHTML += '<button id="btn-'+ resultDataName[i] + '"><img src="' + resultDataImg[i] + '"><p>' + resultDataName[i] + '</p></button>';
-    for (let i =0 ; i < resultDataName.length; i++){
+    for (let i= window.data.length-1; i >= 0; i--){
         document.getElementById('btn-'+ resultDataName[i] +'').addEventListener('click', (event) => {
             event.preventDefault();
             const modal = document.getElementById('myModal');
