@@ -417,7 +417,7 @@ document.getElementById('btn-marksman').addEventListener('click', (event) => {
 //z-a filtro
 document.getElementById('btn-desc').addEventListener('click', (event) => {
     event.preventDefault();
-//const condition = 'name';
+    const condition = 'name';
     document.getElementById('root').innerHTML = " ";
     const resultDataImg = window.dataImg(window.data);
     const resultDataName = window.dataName(window.data);
