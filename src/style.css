@@ -209,7 +209,6 @@ button img{
     font-size: 28px;
     font-weight: bold;
   }
-
   .close:hover,
   .close:focus {
     color: #000;
@@ -220,12 +219,10 @@ button img{
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
     }
-
     /* Smartphones (landscape) ----------- */
     @media only screen and (min-width : 321px) {
     /* Styles */
     }
-
     /* Smartphones (portrait) ----------- */
     @media only screen and (max-width : 320px) {
     /* Styles */
@@ -267,7 +264,6 @@ button img{
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
     /* Styles */
     }
-
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
     /* Styles */
     }
@@ -275,7 +271,6 @@ button img{
     @media only screen  and (min-width : 1224px) {
     /* Styles */
     }
-
     /* Large screens ----------- */
     @media only screen  and (min-width : 1824px) {
     /* Styles */
