@@ -5,7 +5,7 @@ Proyecto: Data Lovers
 ## Índice
 
 * [Preámbulo](#preámbulo)
-* [league of Legends (LOL)](#se explica de que trata el juego)
+* [League of Legends (LOL)](#se explica de que trata el juego)
 * [Data League of Legends (LOL)](#que elementos tomamosde la data para hacer el proyecto)
 * [Historias de Usuario](#Encuestas realizadas)
 * [Maquetado](#la app desde cero)
