@@ -1,4 +1,4 @@
-const LOL = {
+let LOL = {
   type: "champion",
   format: "standAloneComplex",
   version: "6.24.1",
@@ -690,7 +690,7 @@ const LOL = {
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
       blurb:
-        "''Would you like a bedtime story?''<br><br>''Grandma, I'm too old for that.''<br><br>''You're never too old to be told a story.''<br><br>The girl reluctantly crawls into bed and waits, knowing she won't win this battle. A bitter wind howls outside, ...",
+        "''Would you like a bedtime story?''.''Grandma, I'm too old for that.''''You're never too old to be told a story.''The girl reluctantly crawls into bed and waits, knowing she won't win this battle. A bitter wind howls outside, ...",
       info: {
         attack: 3,
         defense: 9,
@@ -742,7 +742,7 @@ const LOL = {
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
       blurb:
-        "''Go ahead, run. I'll give you a five minute head start.''<br><br>One of the reasons Piltover is known as the City of Progress is because it has an extraordinarily low crime rate. This hasn't always been the case; brigands and thieves of all sorts ...",
+        "''Go ahead, run. I'll give you a five minute head start.''One of the reasons Piltover is known as the City of Progress is because it has an extraordinarily low crime rate. This hasn't always been the case; brigands and thieves of all sorts ...",
       info: {
         attack: 8,
         defense: 2,
@@ -1540,18 +1540,18 @@ const LOL = {
       partype: "MP",
       stats: {
         hp: 558.48,
-        hpperlevel: 86,
+        hpperlevel: 86,//sacar
         mp: 317.2,
         mpperlevel: 37,
-        movespeed: 335,
-        armor: 22.412,
+        movespeed: 335,//util
+        armor: 22.412, //util
         armorperlevel: 3.4,
         spellblock: 32.1,
         spellblockperlevel: 1.25,
-        attackrange: 175,
-        hpregen: 8.175,
+        attackrange: 175,//util
+        hpregen: 8.175,//util
         hpregenperlevel: 0.7,
-        mpregen: 6,
+        mpregen: 6,//util
         mpregenperlevel: 0.8,
         crit: 0,
         critperlevel: 0,
@@ -6971,3 +6971,5 @@ const LOL = {
     }
   }
 };
+
+window.LOL=LOL;

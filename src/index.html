@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -17,28 +17,29 @@
       <ul>
         <li><a href="#">Roles</a>
           <ul>
-            <li><button id="btn-todos">Todos</button></li>
+            <li><button id="btn-todos">All</button></li>
             <li><button id="btn-tank">Tank</button></li>
             <li><button id="btn-fighter">Fighter</button></li>
             <li><button id="btn-mage">Mage</button></li>
-            <li><button id="btn-assassin">Assassin</button></li>
+            <li><button id="btn-assassin">Assasin</button></li>
             <li><button id="btn-support">Support</button></li>
-            <li><button id="btn-marksman">Marksman</button></li>
+            <li><button id="btn-marksman">Marskman</button></li>
           </ul>
         </li>
         <li><a href="#">Ordenar</a>
           <ul>
-            <li><button id="btn-asc">Ascendiente</button></li>
-            <li><button id="btn-desc">Descendiente</button></li>
+            <li><button id="btn-asc">A-Z</button></li>
+            <li><button id="btn-desc">Z-A</button></li>
           </ul>
         </li>
         <li id="searchbox"><input id="search" type="text" placeholder="Buscar por personaje">
-          <input id="submit" type="submit" value="Buscar">
+          <button id="btn-search">Buscar</button>
         </li>
       </ul>
     </nav>
     <!-- Contenido -->
     <section>
+      <h1>Campeones</h1>
       <div id="root"></div>
       <!-- <script src="./data/injuries/injuries.js"></script> -->
       <!-- <script src="./data/pokemon/pokemon.js"></script> -->
@@ -51,7 +52,7 @@
       <div id="myModal" class="modal">
 
         <!-- Modal content -->
-        
+
 
       </div>
     </section>
