@@ -21,17 +21,6 @@ const resultDataStatTags = window.dataStatTags(window.data);
 for (let i = 0; i < resultDataImg.length; i++) {
     document.getElementById('root').innerHTML += '<button id="btn-' + resultDataName[i] + '"><img src="' + resultDataImg[i] + '"><p>' + resultDataName[i] + '</p></button>';
 }
-document.getElementById('btn-search').addEventListener('click', (event) => {
-    event.preventDefault();
-    const condition = document.getElementById('search').value;
-    document.getElementById('root').innerHTML = " ";
-    const resultFilterData = window.dataSearch(window.data, condition);
-    const resultDataImg = window.dataImg(resultFilterData);
-    const resultDataName = window.dataName(resultFilterData);
-    for (let i = 0; i < resultDataImg.length; i++) {
-        document.getElementById('root').innerHTML += '<button><img src="' + resultDataImg[i] + '"><p>' + resultDataName[i] + '</p></button>';
-    }
-});
 document.getElementById('btn-tank').addEventListener('click', (event) => {
     event.preventDefault();
     const condition = 'Tank';
@@ -239,7 +228,7 @@ document.getElementById('btn-assassin').addEventListener('click', (event) => {
     const resultDataInfoMagic = window.dataInfoMagic(resultDataInfo);
     const resultDataInfoDifficulty = window.dataInfoDifficulty(resultDataInfo);
     const resultDataBlurb = window.dataBlurb(window.data);
-    const resultDataStats = window.dataStats(window.data);
+    const resultDataStats = window.dataStats(window.data); 
     const resultDataStatHp = window.dataStatHp(resultDataStats);
     const resultStatMp = window.dataStatMp(resultDataStats);
     const resultDataStatMoveSpeed = window.dataStatMoveSpeed(resultDataStats);
