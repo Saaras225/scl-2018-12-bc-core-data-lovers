@@ -89,3 +89,4 @@ document.getElementById('btn-search').addEventListener('click', (event) => {
     window.datafiltered = resultFilterData;
     window.createCharacter(window.datafiltered);
 });
+
