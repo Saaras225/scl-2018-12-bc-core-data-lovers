@@ -3,14 +3,63 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css" />
-</head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
+  <!--Load the AJAX API-->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
 
+    // Load the Visualization API and the corechart package.
+    google.charts.load('current', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.charts.setOnLoadCallback(drawChart);
+
+    // Callback that creates and populates a data table,
+    // instantiates the pie chart, passes in the data and
+    // draws it.
+    function drawChart() {
+
+      // Create the data table.
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Topping');
+      data.addColumn('number', 'Slices');
+      data.addRows([
+        ['Tank', 40],
+        ['Fighter', 66],
+        ['Mage', 52],
+        ['Assasin', 33],
+        ['Support', 27],
+        ['Marksman', 24]
+      ]);
+
+      // Set chart options
+      var options = {
+      legend: {
+        textStyle:{
+          color:'#fff'
+        }
+      },
+      is3D:'true',
+      width:900,
+      height:325,
+      backgroundColor:'#0a0a0c',
+      colors: ['#9A73AB', '#DF5E1D', '#4BC6C6','#C83D3D','#3DC895','#269331']
+    };
+
+      // Instantiate and draw our chart, passing in some options.
+      var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+  </script>
+</head>
 <body>
+  <div class= "contenedor>"
+  <section id="section2">
   <form action="index.html" method="post" id="form">
-    <!-- Cabecera -->
+    <!-- cabecera -->
     <header>
     </header>
     <nav id="menu">
@@ -39,7 +88,6 @@
     </nav>
     <!-- Contenido -->
     <section>
-      <h1>Campeones</h1>
       <div id="root"></div>
       <!-- <script src="./data/injuries/injuries.js"></script> -->
       <!-- <script src="./data/pokemon/pokemon.js"></script> -->
@@ -49,14 +97,15 @@
       <script src="data.js"></script>
       <script src="main.js"></script>
       <!-- The Modal -->
-      <div id="myModal" class="modal"> 
-
-        <!-- Modal content -->
-
-
-      </div>
+      <div id="myModal" class="modal">
+    </div>
     </section>
-  </form>
+</form>
+<br>
+<br>
+<div id="chart_div"></div>
+</br></br>
+</section>
+</div>
 </body>
-
 </html>
