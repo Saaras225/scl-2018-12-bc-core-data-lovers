@@ -6,13 +6,13 @@ html,body {
     overflow : hidden;
 }
 header {
-    width:70%;
+    width:100%;
     height:270px;
     background-image :url(https://www.online-betting.org/wp-content/uploads/2017/05/lol_header.png);
     background-repeat: no-repeat;
     margin:auto;
     border: 1px solid #937341;
-    background-size: 100%;
+    background-size: 75%;
     background-position: center;
 }
 nav{
@@ -274,6 +274,8 @@ button img{
 
   /* Smartphones (portrait and landscape) ----------- */
   @media only screen and (min-device-width : 360px) and (max-device-width : 1024) {
+  }
+  @media only screen and (min-device-height : 360px) and (max-device-width : 1024) {
   }
 
 @media (max-width: 600px){
